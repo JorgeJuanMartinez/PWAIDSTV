@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title></title>
+</head>
+<body>
+	<div id="myapp">
+			<h1>
+				hello {{ name }}
+			</h1>
+	</div>
+ 	<script src="https://unpkg.com/vue@3"></script>
+	<script type="text/javascript">
+
+	const { createApp } = Vue
+		createApp({
+			data(){
+				return{
+					name: 'Jorge Martinez'
+			}
+		}
+	}).mount('#myapp')
+
+
+</script>
+
+
+</body>
+</html>
